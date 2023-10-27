@@ -22,33 +22,7 @@ The dataset consists of information gathered from customers who made their most 
 - customer_value_total_ever_online: The total amount spent by the customer on online purchases
 - interested_in_categories_12: A list of categories in which the customer has made purchases in the last 12 months
 
-## Tasks
+# Note 
+This project completed as a part of Miuul Data Science & Machine Learning Bootcamp. The dataset was provided by Miuul and private.
 
-### Task 1: Data Understanding and Preparation
 
-1. Read the 'flo_data_20K.csv' dataset.
-2. In the dataset, do the following:
-   - a. Examine the first 10 observations.
-   - b. List the variable names.
-   - c. Calculate descriptive statistics.
-   - d. Check for missing values.
-   - e. Analyze variable types.
-3. Create new variables for the total number of purchases and spending for each customer.
-4. Examine variable types and convert date variables to 'date' type.
-5. Investigate the distribution of the number of customers in shopping channels, average product count, and average spending.
-6. List the top 10 customers with the highest earnings.
-7. List the top 10 customers who placed the most orders.
-8. Functionize the data preprocessing process.
-
-### Task 2: Calculation of RFM Metrics
-
-### Task 3: Calculation of RF and RFM Scores
-
-### Task 4: Defining RF Scores as Segments
-
-### Task 5: Action Time!
-
-1. Examine the averages of recency, frequency, and monetary within the segments.
-2. Using RFM analysis, find and save customer IDs for two cases:
-   - a. FLO is introducing a new women's shoe brand with prices above the general customer preferences. They want to target loyal customers (champions, loyal customers) who spend an average of over 250 TL and shop in the women's category. Save the customer IDs of these target customers in a CSV file named 'new_brand_target_customer_ids.csv'.
-   - b. FLO plans a discount of nearly 40% for men's and children's products. They aim to target customers interested in these categories, good customers from the past who haven't shopped for a long time (dormant customers), and new customers. Save the customer IDs of these suitable profiles in a CSV file named 'discount_target_customer_ids.csv'.
